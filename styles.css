@@ -5,12 +5,22 @@
     box-sizing: border-box;
     }
 
+section {
+    padding: 30px;
+}
+
+#hero-section {
+    background-image: url(./marty_floor_crop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 a:hover {
     text-decoration: none;
 }
 
 .card {
-    background-color: powderblue;
+    background-color: rgb(75, 75, 75);
     max-width: 200px;
     margin: 10px;
 }
