@@ -40,3 +40,9 @@ footer {
     text-align: center;
     padding: 20px 0px;
 }
+
+.icons {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+}
