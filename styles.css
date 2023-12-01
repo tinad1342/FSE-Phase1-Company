@@ -5,10 +5,12 @@
     box-sizing: border-box;
     }
 
+/* add padding to all main sections     */
 section {
     padding: 30px;
 }
 
+/* set background image for hero section  */
 #hero-section {
     background-image: url(./marty_floor_crop.jpg);
     background-size: cover;
@@ -19,16 +21,18 @@ a:hover {
     text-decoration: none;
 }
 
+/* control card width */
 .card {
-    background-color: rgb(75, 75, 75);
     max-width: 200px;
     margin: 10px;
 }
 
+/* create card shadow on hover  */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+/* control card display using flexbox */
 .project-cards {
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +45,7 @@ footer {
     padding: 20px 0px;
 }
 
+/* control icon size */
 .icons {
     width: 50px;
     height: auto;
