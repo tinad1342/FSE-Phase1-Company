@@ -1,0 +1,34 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+a:hover {
+    text-decoration: none;
+}
+
+.card {
+    background-color: powderblue;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color:powderblue;
+    padding: 20px;
+    color: white;
+}
